@@ -26,7 +26,7 @@
     * Plugins - Install Plugin from Disk
 	* select clion-embedded-platformio-xxx.xxx.xx.zip
 
-# Erstelle ein neues Arduino - C - Projekt 
+## Erstelle ein neues Arduino - C - Projekt 
 * Starte Clion neu
 * Erstelle ein neues PlatformIO Projekt
   * new Project
@@ -40,3 +40,9 @@
   >Nun sollte das Debuggen funktionieren
 * Setzt das Projekte unter Git-Verwaltung:
   >CVS - Create Git Repository
+
+## Laden des kompilierten Programmes auf die Hardware
+* kompiliere das Programm
+* Wähle in der Run-Configuration: PlatformIO Upload 
+  ![img_2.png](img_2.png)
+* starte den Upload mit dem grünen Run-Button
