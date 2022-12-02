@@ -7,5 +7,6 @@ void setup() {
 }
 
 void loop() {
+    _delay_ms(500);
     PORTB ^= 1<<7;
 }
