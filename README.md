@@ -10,7 +10,7 @@
 * Installation der heruntergeladenen Version von Clion
 * Beim ersten Start muss der Account von JetBrains für eine korrekte Lizenzierung angegeben werden.
 ## Installation Platform-IO für CLion
-* Installiere PlatformIO Core von https://platformio.org/install/cli
+* Installiere PlatformIO Core ( siehe auch https://platformio.org/install/cli )
 * Installiere Python Version 3 von https://www.python.org/downloads/
 * Herunterladen von https://raw.githubusercontent.com/platformio/platformio-core-installer/master/get-platformio.py
 * aus dem Verzeichnis wo heruntergeladen wurde: 
