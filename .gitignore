@@ -1,5 +1,5 @@
 .pio
 CMakeListsPrivate.txt
 cmake-build-*/
-**.workspace
 **/Project Backups
+proteus/**.workspace
