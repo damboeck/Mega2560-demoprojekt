@@ -1,4 +1,3 @@
-**workspace
 .pio
 CMakeListsPrivate.txt
 cmake-build-*/
