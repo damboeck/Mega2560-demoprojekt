@@ -64,3 +64,10 @@
     * Warte danach bis das Projekt komplett heruntergeladen wurde
     * Falls ein Fenster mit CMake aufgeht schließe dieses mit X
 * Rechte Maustaste auf die Datei "platformio.ini" im Project und PlatformIO - Re Init
+
+## Update Software:
+#### Update PlatformIO
+> pip install -U platformio
+#### Update Python pip
+> python.exe -m pip install --upgrade pip
+
