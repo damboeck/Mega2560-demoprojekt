@@ -71,3 +71,6 @@
 #### Update Python pip
 > python.exe -m pip install --upgrade pip
 
+## Konfiguriere PlatformIO
+> pio home
+
