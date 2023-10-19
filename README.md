@@ -49,9 +49,8 @@
 
 ## Laden des kompilierten Programmes auf die Hardware
 * kompiliere das Programm
-* Wähle in der Run-Configuration: PlatformIO Upload
-  ![img_2.png](img_2.png)
-* starte den Upload mit dem grünen Run-Button
+* Wähle in PlatformIO - Upload
+* oder starte den Upload mit dem grünen Run-Button
 
 ## Demoprojekt aus dem Git-Repository auschecken
 * Starte CLion
@@ -64,6 +63,17 @@
     * Warte danach bis das Projekt komplett heruntergeladen wurde
     * Falls ein Fenster mit CMake aufgeht schließe dieses mit X
 * Rechte Maustaste auf die Datei "platformio.ini" im Project und PlatformIO - Re Init
+
+## Installiere ein Arduino Library 
+* start PlatformIO home mit
+  <pre>pio home</pre>
+  oder im Reiter PlatformIO - PlatformIO Home
+* Nun sollte sich PlatformIO im Browser öffnen
+* wähle Projects - AddExisting -> wähle den Ordner des CLion-Projektes aus
+* Nun braucht der Import ein wenig. Wenn er fertig ist sollte ein Reload der Seite das Projekt anzeigen
+* wähle Libraries - suche eine Library 
+  * füge die Library mit "Add to Projekt" zum Projekt
+* Nun sollte im .pio Order des Projekts die Library auffindbar sein
 
 ## Update Software:
 #### Update PlatformIO

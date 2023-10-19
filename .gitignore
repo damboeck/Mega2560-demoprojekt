@@ -1,5 +1,3 @@
-.pio
-CMakeListsPrivate.txt
-cmake-build-*/
+.pio/build
 **/Project Backups
 **workspace
