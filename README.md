@@ -13,7 +13,6 @@
 ## Installation Platform-IO für CLion
 * Installiere PlatformIO Core ( siehe auch https://platformio.org/install/cli )
   * Herunterladen von https://raw.githubusercontent.com/platformio/platformio-core-installer/master/get-platformio.py
-    >curl https://raw.githubusercontent.com/platformio/platformio-core-installer/master/get-platformio.py >get-platformio.py
 * Installiere Python Version 3 von https://www.python.org/downloads/
   * wähle Customized Installation und später das Hakerl bei Environment
   * Prüfe ob Python richtig installiert indem du in der Eingabeaufforderung eingibst:
