@@ -46,6 +46,19 @@
 * Setzt das Projekte unter Git-Verwaltung:
   >CVS - Create Git Repository
 
+## Debuggen des Programmes
+* das Main-Programm muss im Ordner src liegen und main.ino heißen
+* die Datei platformio.ini sollte folgende Zeilen enthalten
+```
+build_type = debug
+build_flags = -g -ggdb -O0
+```
+
+* für den Kommandozeilen-Debugger muss die Datei platformio.ini folgende Zeilen enthalten:
+``` 
+debug_tool = simavr
+``` 
+
 ## Laden des kompilierten Programmes auf die Hardware
 * kompiliere das Programm
 * Wähle in PlatformIO - Upload
